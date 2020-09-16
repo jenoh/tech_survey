@@ -1,0 +1,11 @@
+default:
+  image: node:latest
+
+stages:
+  - run
+
+cron run:
+  stage: run
+  script:
+    - npm i
+    - node cron.js

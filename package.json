@@ -1,0 +1,27 @@
+{
+  "name": "technological_survey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/theomemin/tech_survey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/theomemin/tech_survey/issues"
+  },
+  "homepage": "https://gitlab.com/theomemin/tech_survey#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.8",
+    "rss-parser": "^3.8.0"
+  }
+}
