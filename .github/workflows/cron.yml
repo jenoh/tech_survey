@@ -1,0 +1,15 @@
+name: Run script for tech survey
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install package and run the script
+      run: npm i && node cron.js
+      env:
+        MAIL_PASS: ${{secrets.MAIL_PASS}}
